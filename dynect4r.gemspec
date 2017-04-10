@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency('json')
   s.add_dependency('rest-client')
+  s.add_dependency('gpgme')
 
   s.files = ['LICENSE', 'README.rdoc'] + Dir['lib/*.rb'] + Dir['bin/*.rb']
   s.executables = ['dynect4r-client']
